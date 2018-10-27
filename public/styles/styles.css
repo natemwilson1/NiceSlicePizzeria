@@ -1,0 +1,159 @@
+/*background margins fixes scrolling on mobile*/
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch
+}
+
+body {
+  background: url(../images/dreamcompass2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  line-height: 2;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  width: 100%;
+
+
+}
+
+/*section of index page right and left*/
+
+section {
+  background-color: #BF1926;
+  color: white;
+  margin-bottom: 50px;
+  width: 100%;
+
+}
+
+#mainNavbar {
+  background-color: rgba(25, 25, 25, 0.9);
+  color: white;
+}
+
+.left {
+  text-align: center;
+}
+
+.right {
+  text-align: center;
+}
+
+/*grubhub button*/
+
+.btn-danger {
+  border-radius: 0;
+  color: white;
+  border: 2px solid white;
+}
+
+.btn-danger:hover {
+  border: 2px solid white;
+
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+/*makes font change with screen size*/
+
+@media (max-width: 1100px) {
+  h2 {
+    font-size: 1.65rem;
+  }
+}
+
+
+h2 span {
+  color: #D6471F;
+}
+
+#bottombanner {
+  width: 100%;
+}
+
+/*text stuff*/
+
+#phone {
+  color: white;
+  font-size: 1.25rem;
+}
+
+#phone:hover {
+  text-decoration: none;
+}
+
+footer {
+  color: white;
+}
+
+footer a {
+  color: white;
+
+}
+
+footer a:hover {
+  color: lightgray;
+  text-decoration: none;
+}
+
+i {
+  font-size: 4rem;
+}
+
+.footer-copyright {
+  background-color: black;
+}
+
+#links a {
+  color: white;
+}
+
+#links a:hover {
+  color: red;
+}
+
+
+.menu {
+  margin-top: 100px;
+  background-color: white;
+  text-align: center;
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+  background-color: lightgray;
+  font-family: "Quicksand", sans-serif;
+}
+
+.delivery-info {
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+}
+
+#font-overide {
+  font-family: "Quicksand", sans-serif;
+}
+
+/*picture stuff*/
+
+.menuimage {
+  height:306px;
+  width:306px;
+}
+
+#deliverycar {
+  margin-right:auto;
+  margin-left:auto;
+  display:block;
+}
+
+footer {
+  letter-spacing: 2px;
+}
